@@ -20,6 +20,7 @@ http
       res.statusCode = 404
       res.end('no such location')
     })
+    console.log('create')
   })
   .listen(8080)
 
